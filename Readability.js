@@ -894,6 +894,9 @@ Readability.prototype = {
       case "DIV":
         node.readability.contentScore += 5;
         break;
+      case "ARTICLE":
+        node.readability.contentScore += 20;
+        break;
 
       case "PRE":
       case "TD":
